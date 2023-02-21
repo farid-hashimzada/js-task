@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const people = prompt("istenilen bir soz daxil edin");
+//if, else ile yazilisi
+
+        // if (people === "user") {
+        //     console.log("xos geldin istifadeci")
+        // }
+
+        // else if (people === "admin") {
+        //     console.log("xos geldin admin")
+        // }
+
+        // else if (people === "guest") {
+        //     console.log("xos geldin qonaq")
+        // }
+
+        // else {
+        //     console.log(people === "")
+        // }
+
+        switch(people) {
+            case "user": 
+            console.log("xos geldin istifadeci");
+            break;
+
+            case "admin":
+                console.log("xos geldin admin");
+                break;
+
+            case "guest":
+                console.log("xos geldin qonaq")
+        }
+    </script>
+</body>
+</html>

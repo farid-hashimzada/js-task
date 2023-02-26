@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let ureyimdekiEded = Math.floor(Math.random() * 50 + 1);
+        let count = 1;
+        debugger
+        let user = +prompt("ureyimdeki ededi tap");
+
+        while (user !== ureyimdekiEded) {
+            count++
+            if (user > ureyimdekiEded) {
+                user = +prompt("biraz asagi")
+            } else {
+                user = +prompt("biraz yuxari")
+            }
+        }
+        if (count === 1) {
+            console.log("1000 manat qazandin")
+        }
+
+        else if (count <= 5) {
+            console.log("750 manat qzandin")
+        }
+
+        else if (count <= 9) {
+            console.log("250 manat qazandin")
+        }
+
+        else {
+            console.log("mene 250 manat borclandin")
+        }
+
+        console.log(`ededi ${count} defeye tapdin: ${ureyimdekiEded}`)
+    </script>
+</body>
+
+</html>

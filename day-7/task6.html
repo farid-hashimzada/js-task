@@ -8,7 +8,15 @@
 </head>
 <body>
     <script>
-        
+        function add(num1, num2, callback) {
+            let result = num1 + num2
+            callback(result)
+        }
+
+        add (5, 3, function(object) {
+            alert(object)
+            console.log(object)
+        })
     </script>
 </body>
 </html>

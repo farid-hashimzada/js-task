@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function propertyTaker(obj, propertyName) {
+            console.log(obj[propertyName])
+        }
+
+         propertyTaker ({continet: 'Asia', country: 'Japon'}, 'continet') 
+         propertyTaker ({country: 'Sweden', continet: 'Europe'}, 'country') 
+         propertyTaker ({name: 'Farid', age: 12}, 'name')
+    </script>
+</body>
+</html>
+
+
+<!--propertyTaker adinda funksiya yaradin. Argument kimi obyekt (obj) ve string (proprtyName) alsin.
+     Hemin obyektin verdiyim propertyni cixarsin-->

@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.circle {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    gap: 20px;
+}
+
+.circle button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.one {
+    border: 3px solid #4017d4;
+}
+
+.two {
+    border: 3px solid #ca0a0a;
+}
+
+.three {
+    border: 3px solid #05941d;
+}
+
+
+/*task 2 input example start*/
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.parent-input input{
+    width: 300px;
+    height: 40px;
+    border: 3px solid #666;
+    padding: 10px;
+}
+
+
+.circleOne {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #666;
+    margin-top: 20px;
+}
+
+.content-circle {
+    padding-top: 20px;
+}
+
+
+
+
+

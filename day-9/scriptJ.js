@@ -1,3 +1,4 @@
+// A: done 👍
 let circleOne = document.querySelector('#one1')
 let circleTwo = document.querySelector('#two2')
 let circleThree = document.querySelector('#three3')
@@ -20,7 +21,7 @@ let changeGreen = () => {
 
 
 // task 2 sollution
-
+// A: done 👍
 const input = document.querySelector('input')
 const button = document.querySelector('button')
 const circle = document.querySelector('.circleOne')
